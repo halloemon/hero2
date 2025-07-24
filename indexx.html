@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white  m-0 p-0">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-4 py-3 bg-white shadow-none">
+    
+   <!-- Left: Logo Image -->
+<div>
+  <img src="assets/logo.png" alt="Logo" class="h-10 w-auto object-contain" />
+</div>
+
+
+    <!-- Right Section -->
+    <div class="flex items-center space-x-6">
+      
+      <!-- Menu Items (hidden on small screens) -->
+      <ul class="hidden md:flex space-x-6 text-lg font-medium">
+        <li><a href="#" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#" class="hover:text-blue-600">Shop</a></li>
+        <li><a href="#" class="hover:text-blue-600">About</a></li>
+      </ul>
+
+      <!-- Cart Icon + Text -->
+      <div class="flex items-center space-x-2">
+        <!-- Cart Icon -->
+
+<div class="flex items-center space-x-2">
+  <img src="assets/cartt.png" alt="Cart" class="h-6 w-6 object-contain" />
+  <span class="text-lg font-semibold">Cart($56)</span>
+
+    </div>
+  </nav>
+
+<!-- Noto Serif Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    .font-noto-serif {
+      font-family: 'Noto Serif', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Banner Section -->
+  <section class="flex flex-col-reverse md:flex-row items-center px-6 py-12 gap-8">
+    
+    <!-- Left: Text Content -->
+    <div class="md:w-1/2 text-left space-y-4">
+      <h1 class="text-3xl md:text-5xl font-bold leading-tight font-noto-serif">
+        <span class="block">
+          <span class="text-black">ALWAYS </span>
+          <span class="text-orange-500">FRESH</span>
+        </span>
+        <span class="text-orange-500 block">FLOWER</span>
+      </h1>
+
+      <p class="text-gray-700 text-lg md:text-xl">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+      </p>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="md:w-1/2">
+      <img src="assets/hero-flower.png" alt="Fresh Flowers" class="w-full h-auto object-cover rounded-lg" />
+    </div>
+
+  </section>
+
+</body>
+</html>
+
+</body>
+</html>
