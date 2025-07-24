@@ -1,2 +1,0 @@
-📂 GitHub Repository:
-🌐 Live Link:
